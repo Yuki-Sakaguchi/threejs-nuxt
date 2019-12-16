@@ -52,14 +52,4 @@ export default {
       }
     }
   },
-  router: {
-    base: "/threejs-nuxt/dist/",
-    extendRoutes (routes, resolve) {
-      routes.push({
-        name: 'custom',
-        path: '*',
-        component: resolve(__dirname, 'pages/index.vue')
-      })
-    }
-  },
 }
