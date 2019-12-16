@@ -51,5 +51,8 @@ export default {
         config.module.rules.push({ test: /\.(vert|frag)$/i, use: ["raw-loader"] });
       }
     }
-  }
+  },
+  router: {
+    base: "/dist/"
+  },
 }
